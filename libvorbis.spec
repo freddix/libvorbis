@@ -1,12 +1,12 @@
 Summary:	The Vorbis General Audio Compression Codec
 Name:		libvorbis
-Version:	1.3.3
+Version:	1.3.4
 Release:	1
 Epoch:		1
 License:	BSD
 Group:		Libraries
 Source0:	http://downloads.xiph.org/releases/vorbis/%{name}-%{version}.tar.gz
-# Source0-md5:	6b1a36f0d72332fae5130688e65efe1f
+# Source0-md5:	8851c593a52d1ef9c526d95174873852
 Patch0:		%{name}-make.patch
 Patch1:		%{name}-ac_fixes.patch
 URL:		http://www.vorbis.com/
