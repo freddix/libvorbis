@@ -1,13 +1,13 @@
-# based on PLD Linux spec git://git.pld-linux.org/packages/.git
+# based on PLD Linux spec git://git.pld-linux.org/packages/libvorbis.git
 Summary:	The Vorbis General Audio Compression Codec
 Name:		libvorbis
-Version:	1.3.4
-Release:	2
+Version:	1.3.5
+Release:	1
 Epoch:		1
 License:	BSD
 Group:		Libraries
 Source0:	http://downloads.xiph.org/releases/vorbis/%{name}-%{version}.tar.gz
-# Source0-md5:	8851c593a52d1ef9c526d95174873852
+# Source0-md5:	7220e089f3be3412a2317d6fde9e3944
 Patch0:		%{name}-make.patch
 Patch1:		%{name}-ac_fixes.patch
 URL:		http://www.vorbis.com/
@@ -34,7 +34,6 @@ documentation needed to develop applications with libvorbis.
 %prep
 %setup -q
 %patch0 -p1
-%patch1 -p1
 
 %build
 %{__libtoolize}
